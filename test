@@ -5,6 +5,12 @@ from PyQt5.QtWidgets import (
        QHBoxLayout, QVBoxLayout, QGridLayout,
        QGroupBox, QRadioButton,
        QPushButton, QLabel, QListWidget, QLineEdit)
+class Experiment():
+    def __init__(self, age, test1, test2, test3):
+        self.t1 = test1
+        self.t2 = test2
+        self.t3 = test3  
+       
 #from instr import *
 class FinalWin(QWidget):
     def __init__(self):
